@@ -1,0 +1,8 @@
+server:
+  port: 8091
+  servlet:
+    application-display-name: test
+com:
+  test:
+    name: zhangSan啊
+    value: xx

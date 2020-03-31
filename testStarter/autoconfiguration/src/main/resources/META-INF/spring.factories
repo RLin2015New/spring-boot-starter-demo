@@ -1,0 +1,12 @@
+
+#自定义自动配置类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.lifl.testautoconfiguration.HelloConfigurationConfiguration
+
+#自定义的初始化器
+org.springframework.context.ApplicationContextInitializer=\
+com.lifl.testautoconfiguration.TestContextInitializer
+
+#自定义的启动时监听
+org.springframework.boot.SpringApplicationRunListener=\
+com.lifl.testautoconfiguration.TestApplicationListener
